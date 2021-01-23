@@ -1,0 +1,31 @@
+{
+  "name": "asynchronous",
+  "version": "1.0.0",
+  "description": "Asincronismo JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js",
+    "promise:challenge": "node src/promise/challenge.js",
+    "async": "node src/async-await/index.js",
+    "async:challenge": "node src/async-await/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlycode/asynchronous.git"
+  },
+  "keywords": [
+    "asynchronous",
+    "javascript"
+  ],
+  "author": "carlycode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlycode/asynchronous/issues"
+  },
+  "homepage": "https://github.com/Carlycode/asynchronous#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
